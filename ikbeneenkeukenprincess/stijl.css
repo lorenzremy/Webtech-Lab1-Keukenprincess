@@ -1,0 +1,255 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #FFF;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		color: #000000;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		color: #FFA332;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+		color: #8dc63f;
+	}
+	
+	a
+	{
+		color: #8dc63f;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+	}
+	
+	.img
+	{
+		display: inline-block;
+	}
+	
+	.img img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.img-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+	
+	.img-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.img-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.img-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+
+	.knop
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 1em 2em 1em 2em;
+		background: #FFA332;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+	}
+
+	.gerechtA,
+	.gerechtB,
+	.gerechtC
+	{
+		width: 384px;
+		text-align: center;
+	}
+
+	.gerechtA h2,
+	.gerechtB h2,
+	.gerechtC h2
+	{
+		margin-bottom: 1em;
+		font-weight: 600;
+		font-size: 1.6em;
+	}
+
+	.gerechtA p,
+	.gerechtB p,
+	.gerechtC p
+	{
+		padding: 0em 1.5em;
+	}
+
+	.gerechtA,
+	.gerechtB
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.gerechtC
+	{
+		float: right;
+	}
+
+
+	#header
+	{
+		position: relative;
+		padding: 5em 0em;
+	}
+
+
+	#logo
+	{
+		position: absolute;
+		top: 4em;
+		left: 0;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFA332;
+	}
+
+
+	#menu
+	{
+		position: absolute;
+		top: 5em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+		#menu li:before
+		{
+			content: "//";
+			padding: 1em 1.5em;
+			font-weight: 700;
+			color: rgba(0,0,0,.6);
+		}
+	
+	#menu li a, #menu li span
+	{
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 1em;
+		color: rgba(0,0,0,.4);
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		color: rgba(0,0,0,.6);
+	}
+	
+	#menu .current_page_item a
+	{
+		color: rgba(0,0,0,.8);
+	}
+	
+
+	#banner
+	{
+		overflow: hidden;
+		padding: 15em 0em;
+		background: url(afbeeldingen/banner.jpg) no-repeat center;
+		background-size: cover;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+
+
+	#page
+	{
+		position: relative;
+		overflow: hidden;
+		padding: 8em 0em;
+	}
+
+	.gerecht
+	{
+		margin-bottom: 2em;
+		padding-bottom: 2em;
+		border-bottom: 1px solid rgba(0,0,0,.1);
+	}
+	
+	.gerecht span
+	{
+		margin: 0;
+		padding: 1em 1em;
+		background: #FFA332;
+		display: block;
+		line-height: 3em;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 1.2em;
+		color: #FFF;
+	}
