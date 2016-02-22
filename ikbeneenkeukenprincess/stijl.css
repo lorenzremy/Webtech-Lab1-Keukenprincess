@@ -1,4 +1,4 @@
-	html, body
+html, body
 	{
 		height: 100%;
 	}
@@ -21,6 +21,10 @@
 		padding: 0;
 		color: #FFA332;
 	}
+
+    h2{
+        padding:15px 0px 15px 0px;
+    }
 	
 	p, ol, ul
 	{
@@ -158,8 +162,9 @@
 	#logo
 	{
 		position: absolute;
-		top: 4em;
+		top: 3.7em;
 		left: 0;
+        
 	}
 	
 	#logo a
@@ -168,6 +173,9 @@
 		color: #FFA332;
 	}
 
+    #logo img{
+        width:350px;
+    }
 
 	#menu
 	{
@@ -253,3 +261,16 @@
 		font-size: 1.2em;
 		color: #FFF;
 	}
+
+
+p{
+    font-size:1.2em;
+    padding-top:20px;
+    color:#333333;
+}
+
+#ingredients{
+    float:right;
+    margin-top:-300px;
+    margin-left:460px;
+}
