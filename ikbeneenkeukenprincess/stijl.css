@@ -274,3 +274,20 @@ p{
     margin-top:-300px;
     margin-left:460px;
 }
+
+#tekstAbout{
+    margin-left:340px;
+}
+
+#imgAbout{
+    float:left;
+}
+
+#spanAbout{
+    color: #FFA332;
+    font-weight: bold;
+}
+
+.clearfix {
+  overflow: auto;
+}
